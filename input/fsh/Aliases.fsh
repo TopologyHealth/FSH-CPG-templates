@@ -10,3 +10,4 @@ Alias: $RINTENT = http://hl7.org/fhir/request-intent
 Alias: $RPRIOR = http://hl7.org/fhir/request-priority
 Alias: $LTYPE = http://terminology.hl7.org/CodeSystem/library-type
 Alias: $PUBSTAT = http://hl7.org/fhir/publication-status
+Alias: $ITYPE = http://hl7.org/fhir/item-type
