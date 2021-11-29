@@ -5,14 +5,14 @@ RuleSet: CPGKnowledgeExtensions
 * extension[=].valueCode = http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-knowledge-representation-level#structured "Structured"
 
 RuleSet: CommonMetadata
-* version = "1.0.0"
-* date = "2021-01-01"
+* version = "[1.0.0]"
+* date = "[2021-01-01]"
 * status = $PUBSTAT#draft "Draft"
 * experimental = true
-* publisher = "[Publisher name]]"
+* publisher = "[Publisher name]"
 * copyright = "(C) [Copyright information]"
-* approvalDate = "2021-01-01"
-* lastReviewDate = "2021-01-01"
+* approvalDate = "[2021-01-01]"
+* lastReviewDate = "[2021-01-01]"
 * author[+].name = "[Author name]"
 * editor[+].name = "[Editor name]"
 * reviewer[+].name = "[Reviewer name]"
