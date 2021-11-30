@@ -20,7 +20,7 @@ Usage: #definition
 * code = //should this just be code Procedure for "give drug"?
 * intent = $RINTENT#proposal "Proposal" 
 * priority = $RPRIOR#routine "Routine"
-* product%x%= // a reference or codeableConcept on the product to be requested 
+* product[x]= // a reference or codeableConcept on the product to be requested 
 //additional dynamicValues that you may want to be included in the generated resource
 * dynamicValue[+].path = "code" // this is the MedicationRequest.code element
 * dynamicValue[=].expression.language = $EXLANG|4.0.1#text/cql "CQL"
