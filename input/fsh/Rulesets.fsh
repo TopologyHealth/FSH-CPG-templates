@@ -9,14 +9,14 @@ RuleSet: CommonMetadata
 * date = "2021-01-01"
 * status = $PUBSTAT#draft "Draft"
 * experimental = true
-* publisher = "[Publisher name]]"
-* copyright = "(C) [Copyright information]"
+* publisher = "%Publisher name%"
+* copyright = "(C) %Copyright information%"
 * approvalDate = "2021-01-01"
 * lastReviewDate = "2021-01-01"
-* author[+].name = "[Author name]"
-* editor[+].name = "[Editor name]"
-* reviewer[+].name = "[Reviewer name]"
-* endorser[+].name = "[Endorser name]"
+* author[+].name = "%Author name%"
+* editor[+].name = "%Editor name%"
+* reviewer[+].name = "%Reviewer name%"
+* endorser[+].name = "%Endorser name%"
 
 /*
 These are taken from Cervical Cancer Screening and Management CPG and need to be updated/removed
