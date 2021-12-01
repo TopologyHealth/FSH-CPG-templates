@@ -1,4 +1,4 @@
-Instance: %Computer friendly ActivityDefinition name]
+Instance: %Computer friendly ActivityDefinition name%
 InstanceOf: http://hl7.org/fhir/uv/cpg/ActivityDefinition/cpg-collectinformation-activitydefinition
 Title: "%Human friendly ActivityDefinition name%"
 Usage: #definition
