@@ -1,4 +1,4 @@
-Instance: %Computer friendly ActivityDefinition name%
+Instance: %Computer friendly PlanDefinition name%
 InstanceOf: http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableplandefinition
 Title: "%Human readable PlanDefinition name%"
 Usage: #definition
@@ -6,7 +6,7 @@ Usage: #definition
 * insert CommonMetadata
 * meta.profile[+] = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableplandefinition"
 // * cpg-partOf = Canonical(TopLevelPlanDefinition) // TODO: Tie this into the entire pathway
-* url = "http://OUR-PLACEHOLDER-URL.com/PlanDefinition-%PlanDefinition Name%"
+* url = "http://OUR-PLACEHOLDER-URL.com/PlanDefinition-%PlanDefinitionName%"
 * name = "%Computer readable PlanDefinition name%"
 * title = "%Human readable PlanDefinition name%"
 * type = $PDTYPE#eca-rule "ECA Rule"
